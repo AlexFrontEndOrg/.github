@@ -30,10 +30,6 @@ We handle the entire lifecycle—from deep product discovery, UX/UI audits, and 
   <summary><b>Activity</b></summary>
   <br/>
   <div align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
-      <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-view.svg">
-      <img alt="Organization Activity Graph" src="./profile-3d-contrib/profile-night-view.svg" width="100%">
-    </picture>
+    <img alt="Organization Activity Graph" src="https://raw.githubusercontent.com/AlexFrontEndOrg/.github/main/.github/profile-3d-contrib/profile-night-view.svg" width="100%">
   </div>
 </details>
