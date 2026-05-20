@@ -16,7 +16,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Официальный генератор карты активности, который на 100% дружит с любыми репозиториями
+      # Официальный генератор карты активности
       - name: Generate Activity Graph
         uses: lowlighter/metrics@latest
         with:
@@ -27,12 +27,7 @@ jobs:
           plugin_isocalendar_duration: half-year # График за последние полгода
           config_timezone: Europe/Yerevan # Твой часовой пояс
           filename: profile-3d-contrib/profile-night-view.svg # Сохраняем сразу по нужному пути
-
-      # Коммитим полученный файл обратно в репозиторий
-      - name: Commit and Push Generated SVG
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add profile-3d-contrib/profile-night-view.svg
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update organization activity graph"
-          git push
+          
+          # Автоматический коммит и пуш силами самого экшена
+          config_output: svg
+          committer_token: ${{ secrets.ORG_GRAPH_TOKEN }}
