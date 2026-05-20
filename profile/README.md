@@ -1,6 +1,7 @@
 # AlexFrontEnd
 
-We are a **full-cycle development agency** dedicated to building, scaling, and optimizing modern digital products. We handle the entire lifecycle—from deep product discovery, UX/UI audits, and custom design systems to robust full-stack engineering, complex integrations, and end-to-end cloud infrastructure.
+We are a **full-cycle development agency** dedicated to building, scaling, and optimizing modern digital products. 
+We handle the entire lifecycle—from deep product discovery, UX/UI audits, and custom design systems to robust full-stack engineering, complex integrations, and end-to-end cloud infrastructure.
 
 <br/>
 
