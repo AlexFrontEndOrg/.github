@@ -5,6 +5,9 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,17 +18,24 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate 3D Contribution Graph
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      # Этот плагин официально поддерживает Организации
+      - name: Generate Contribution SVG
+        uses: platane/snk@v3
+        with:
+          github_user_name: AlexFrontEndOrg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff&color_calendar=000000,111111,222222,444444,ffffff
         env:
-          # Меняем дефолтный токен на твой личный сохраненный PAT
           GITHUB_TOKEN: ${{ secrets.ORG_GRAPH_TOKEN }}
-          USERNAME: AlexFrontEndOrg
 
+      # Переносим сгенерированный файл туда, где его ждет README.md
       - name: Commit and Push Generated SVG
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A .
+          mkdir -p profile-3d-contrib
+          cp dist/github-contribution-grid-snake-dark.svg ./profile-3d-contrib/profile-night-view.svg
+          git add ./profile-3d-contrib/profile-night-view.svg
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: update organization activity graph"
           git push
