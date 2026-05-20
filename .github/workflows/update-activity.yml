@@ -22,11 +22,12 @@ jobs:
       - name: Prepare Directory
         run: mkdir -p profile-3d-contrib
 
-      # Генератор 3D-графика, который полностью поддерживает организации
+      # Генератор 3D-графика с явным указанием организации
       - name: Generate 3D Contribution Graph
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.ORG_GRAPH_TOKEN }}
+          USERNAME: AlexFrontEndOrg
 
       # Чистый пуш созданного SVG-файла
       - name: Commit and Push Generated SVG
