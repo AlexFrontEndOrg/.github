@@ -20,13 +20,14 @@ We are a **full-cycle development agency** dedicated to building, scaling, and o
 <br/>
 <br/>
 
-<div align="center">
-  <sub><font color="#8b949e">ORGANIZATION ACTIVITY</font></sub>
+<details>
+  <summary><b> Activity</b></summary>
   <br/>
-  <br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-view.svg">
-    <img alt="Organization Activity Graph" src="./profile-3d-contrib/profile-night-view.svg" width="100%">
-  </picture>
-</div>
+  <div align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
+      <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-view.svg">
+      <img alt="Organization Activity Graph" src="./profile-3d-contrib/profile-night-view.svg" width="100%">
+    </picture>
+  </div>
+</details>
