@@ -2,11 +2,11 @@ name: Update Organization Activity Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *" # Автозапуск каждую ночь
+  workflow_dispatch: # Позволяет запускать вручную кнопку во вкладке Actions
 
 permissions:
-  contents: write
+  contents: write # Разрешаем экшену делать коммиты и пушить графику в репо
 
 jobs:
   build:
@@ -18,18 +18,19 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Этот плагин официально поддерживает Организации
+      # Генерируем чистую монохромную сетку активности всей организации
       - name: Generate Contribution SVG
         uses: platane/snk@v3
         with:
-          github_user_name: AlexFrontEndOrg
+          github_org_name: AlexFrontEndOrg
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff&color_calendar=000000,111111,222222,444444,ffffff
         env:
+          # Твой созданный личный токен из секретов репозитория
           GITHUB_TOKEN: ${{ secrets.ORG_GRAPH_TOKEN }}
 
-      # Переносим сгенерированный файл туда, где его ждет README.md
+      # Переносим сгенерированный SVG-файл туда, где его ждет README.md
       - name: Commit and Push Generated SVG
         run: |
           git config --local user.email "action@github.com"
