@@ -16,3 +16,10 @@ We are a **full-cycle development agency** dedicated to building, scaling, and o
 | <img src="https://cdn.simpleicons.org/supabase/000000" width="18" height="18" /> | **Databases & ORM** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-000000?style=for-the-badge&logo=prisma&logoColor=white) ![TypeORM](https://img.shields.io/badge/TypeORM-000000?style=for-the-badge) |
 | <img src="https://cdn.simpleicons.org/quicklook/000000" width="18" height="18" /> | **Ecosystem & Payments** | ![Integrations](https://img.shields.io/badge/Third--party_Integrations-000000?style=for-the-badge) ![Stripe](https://img.shields.io/badge/Stripe-000000?style=for-the-badge&logo=stripe&logoColor=white) ![Custom APIs](https://img.shields.io/badge/Custom_APIs-000000?style=for-the-badge) |
 | <img src="https://cdn.simpleicons.org/octopusdeploy/000000" width="18" height="18" /> | **DevOps & CI/CD** | ![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white) ![Actions](https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&logo=githubactions&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab_CI-000000?style=for-the-badge&logo=gitlab&logoColor=white) |
+
+
+### Our Team Activity
+
+<p align="left">
+  <img src="https://github-readme-org-stats.vercel.app/api?org=AlexFrontEndOrg&theme=dark&show_icons=true" alt="AlexFrontEnd Metrics" />
+</p>
