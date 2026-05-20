@@ -3,40 +3,36 @@ name: Update Organization Activity Graph
 on:
   schedule:
     - cron: "0 0 * * *" # Автозапуск каждую ночь
-  workflow_dispatch: # Позволяет запускать вручную кнопку во вкладке Actions
+  workflow_dispatch: # Кнопка ручного запуска
 
 permissions:
-  contents: write # Разрешаем экшену делать коммиты и пушить графику в репо
+  contents: write # Разрешение на пуш картинки
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Generate Activity SVG
-    env:
-      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Генерируем чистую монохромную сетку активности всей организации
-      - name: Generate Contribution SVG
-        uses: platane/snk@v3
+      # Официальный генератор карты активности, который на 100% дружит с любыми репозиториями
+      - name: Generate Activity Graph
+        uses: lowlighter/metrics@latest
         with:
-          github_org_name: AlexFrontEndOrg
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff&color_calendar=000000,111111,222222,444444,ffffff
-        env:
-          # Твой созданный личный токен из секретов репозитория
-          GITHUB_TOKEN: ${{ secrets.ORG_GRAPH_TOKEN }}
+          token: ${{ secrets.ORG_GRAPH_TOKEN }}
+          user: AlexFrontEndOrg
+          base: activity, community
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year # График за последние полгода
+          config_timezone: Europe/Yerevan # Твой часовой пояс
+          filename: profile-3d-contrib/profile-night-view.svg # Сохраняем сразу по нужному пути
 
-      # Переносим сгенерированный SVG-файл туда, где его ждет README.md
+      # Коммитим полученный файл обратно в репозиторий
       - name: Commit and Push Generated SVG
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          mkdir -p profile-3d-contrib
-          cp dist/github-contribution-grid-snake-dark.svg ./profile-3d-contrib/profile-night-view.svg
-          git add ./profile-3d-contrib/profile-night-view.svg
+          git add profile-3d-contrib/profile-night-view.svg
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: update organization activity graph"
           git push
