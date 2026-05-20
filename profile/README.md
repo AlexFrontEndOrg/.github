@@ -21,5 +21,5 @@ We are a **full-cycle development agency** dedicated to building, scaling, and o
 ### Our Team Activity
 
 <p align="left">
-  <img src="https://opencollective.com/alexfrontendorg/contributors.svg?width=890&button=false" alt="Activity Roadmap" />
+  <img src="./profile-3d-contrib/profile-night-view.svg" alt="AlexFrontEnd Activity Graph" width="100%" />
 </p>
