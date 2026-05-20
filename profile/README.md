@@ -6,7 +6,7 @@ We are a **full-cycle development agency** dedicated to building, scaling, and o
 
 <pre style="font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace; padding: 16px; margin: 0; line-height: 2.3;">
 <span style="line-height: 1;"><sub style="color: #8b949e; font-size: 10px; font-weight: 500; letter-spacing: 1px;">STAGE / CATEGORY                             STACK & EXPERTISE</sub></span>
-<font color="#21262d">───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</font>
+<font color="#21262d">─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</font>
 <img src="https://cdn.simpleicons.org/rocket/000000" width="14" height="14" /> Discovery & Strategy           <img src="https://img.shields.io/badge/Product_Strategy-222222?style=flat" /> <img src="https://img.shields.io/badge/UX_%26_UI_Audits-222222?style=flat" /> <img src="https://img.shields.io/badge/Clickable_Prototypes-222222?style=flat" />
 <img src="https://cdn.simpleicons.org/simpleicons/000000" width="14" height="14" /> Product Design                 <img src="https://img.shields.io/badge/UX%2FUI_Design-222222?style=flat&logo=figma&logoColor=8b949e" /> <img src="https://img.shields.io/badge/Design_Systems-222222?style=flat" /> <img src="https://img.shields.io/badge/Framer-222222?style=flat&logo=framer&logoColor=8b949e" />
 <img src="https://cdn.simpleicons.org/react/000000" width="14" height="14" /> Frontend Engineering           <img src="https://img.shields.io/badge/React-222222?style=flat&logo=react&logoColor=8b949e" /> <img src="https://img.shields.io/badge/Next.js-222222?style=flat&logo=nextdotjs&logoColor=8b949e" /> <img src="https://img.shields.io/badge/TypeScript-222222?style=flat&logo=typescript&logoColor=8b949e" />
@@ -20,13 +20,3 @@ We are a **full-cycle development agency** dedicated to building, scaling, and o
 <br/>
 <br/>
 
-<div align="center">
-  <sub><font color="#8b949e">ORGANIZATION ACTIVITY</font></sub>
-  <br/>
-  <br/>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-view.svg">
-    <img alt="Organization Activity Graph" src="./profile-3d-contrib/profile-night-view.svg" width="100%">
-  </picture>
-</div>
