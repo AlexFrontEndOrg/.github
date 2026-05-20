@@ -5,7 +5,7 @@ We handle the entire lifecycle—from deep product discovery, UX/UI audits, and 
 
 <br/>
 
-[![Website](https://img.shields.io/badge/Visit_Our_Website-222222?style=for-the-badge&logo=googlechrome&logoColor=8b949e)](https://alexfrontend.com)
+[![Website](https://img.shields.io/badge/Visit_Our_Website-222222?style=for-the-badge)](https://alexfrontend.com)
 
 <br/>
 
