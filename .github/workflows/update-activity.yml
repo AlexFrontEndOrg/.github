@@ -24,7 +24,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff&color_calendar=000000,111111,222222,444444,ffffff
         env:
-          # Используем твой созданный личный токен вместо стандартного
+          # Передаем твой созданный личный токен
           GITHUB_TOKEN: ${{ secrets.ORG_GRAPH_TOKEN }}
 
       # Сохраняем сгенерированный SVG файл в репозиторий
