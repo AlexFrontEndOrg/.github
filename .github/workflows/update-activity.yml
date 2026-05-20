@@ -5,27 +5,35 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write # Явно разрешаем экшену пушить изменения в репозиторий
-
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Generate Activity SVG
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate 3D Contribution Graph
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      # Генерируем чистую монохромную сетку активности всей организации
+      - name: Generate Contribution SVG
+        uses: platane/snk@v3
+        with:
+          github_user_name: AlexFrontEndOrg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?color_snake=ffffff&color_calendar=000000,111111,222222,444444,ffffff
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: AlexFrontEndOrg
+          # Используем твой созданный личный токен вместо стандартного
+          GITHUB_TOKEN: ${{ secrets.ORG_GRAPH_TOKEN }}
 
+      # Сохраняем сгенерированный SVG файл в репозиторий
       - name: Commit and Push Generated SVG
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A .
+          mkdir -p profile-3d-contrib
+          cp dist/github-contribution-grid-snake-dark.svg ./profile-3d-contrib/profile-night-view.svg
+          git add ./profile-3d-contrib/profile-night-view.svg
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: update organization activity graph"
           git push
