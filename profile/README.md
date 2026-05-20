@@ -2,24 +2,31 @@
 
 We are a **full-cycle development agency** dedicated to building, scaling, and optimizing modern digital products. We handle the entire lifecycle—from deep product discovery, UX/UI audits, and custom design systems to robust full-stack engineering, complex integrations, and end-to-end cloud infrastructure.
 
----
+<br/>
 
-### Capabilities & Tech Stack
+<pre style="font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace; padding: 16px; margin: 0; line-height: 2.3;">
+<span style="line-height: 1;"><sub style="color: #8b949e; font-size: 10px; font-weight: 500; letter-spacing: 1px;">STAGE / CATEGORY                             STACK & EXPERTISE</sub></span>
+<font color="#21262d">───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</font>
+<img src="https://cdn.simpleicons.org/rocket/000000" width="14" height="14" /> Discovery & Strategy           <img src="https://img.shields.io/badge/Product_Strategy-222222?style=flat" /> <img src="https://img.shields.io/badge/UX_%26_UI_Audits-222222?style=flat" /> <img src="https://img.shields.io/badge/Clickable_Prototypes-222222?style=flat" />
+<img src="https://cdn.simpleicons.org/simpleicons/000000" width="14" height="14" /> Product Design                 <img src="https://img.shields.io/badge/UX%2FUI_Design-222222?style=flat&logo=figma&logoColor=8b949e" /> <img src="https://img.shields.io/badge/Design_Systems-222222?style=flat" /> <img src="https://img.shields.io/badge/Framer-222222?style=flat&logo=framer&logoColor=8b949e" />
+<img src="https://cdn.simpleicons.org/react/000000" width="14" height="14" /> Frontend Engineering           <img src="https://img.shields.io/badge/React-222222?style=flat&logo=react&logoColor=8b949e" /> <img src="https://img.shields.io/badge/Next.js-222222?style=flat&logo=nextdotjs&logoColor=8b949e" /> <img src="https://img.shields.io/badge/TypeScript-222222?style=flat&logo=typescript&logoColor=8b949e" />
+<img src="https://cdn.simpleicons.org/nodedotjs/000000" width="14" height="14" /> Backend & Architecture         <img src="https://img.shields.io/badge/Node.js-222222?style=flat&logo=nodedotjs&logoColor=8b949e" /> <img src="https://img.shields.io/badge/NestJS-222222?style=flat&logo=nestjs&logoColor=8b949e" /> <img src="https://img.shields.io/badge/PostgreSQL-222222?style=flat&logo=postgresql&logoColor=8b949e" />
+<img src="https://cdn.simpleicons.org/quicklook/000000" width="14" height="14" /> Ecosystem & APIs               <img src="https://img.shields.io/badge/Custom_APIs-222222?style=flat" /> <img src="https://img.shields.io/badge/Third--party_Integrations-222222?style=flat" /> <img src="https://img.shields.io/badge/Stripe_%26_Payments-222222?style=flat&logo=stripe&logoColor=8b949e" />
+<img src="https://cdn.simpleicons.org/probot/000000" width="14" height="14" /> Automation & Workflow          <img src="https://img.shields.io/badge/CRM_%26_ERP_Sync-222222?style=flat" /> <img src="https://img.shields.io/badge/Workflow_Automation-222222?style=flat" />
+<img src="https://cdn.simpleicons.org/docker/000000" width="14" height="14" /> DevOps & CI/CD                 <img src="https://img.shields.io/badge/Docker-222222?style=flat&logo=docker&logoColor=8b949e" /> <img src="https://img.shields.io/badge/GitHub_Actions-222222?style=flat&logo=githubactions&logoColor=8b949e" />
+<img src="https://cdn.simpleicons.org/googleanalytics/000000" width="14" height="14" /> Analytics & BI                 <img src="https://img.shields.io/badge/Google_Analytics-222222?style=flat&logo=googleanalytics&logoColor=8b949e" /> <img src="https://img.shields.io/badge/BI_Dashboards-222222?style=flat" />
+</pre>
 
-| | Stage / Category | Stack & Expertise |
-| :---: | :--- | :--- |
-| <img src="https://cdn.simpleicons.org/gitbook/000000" width="18" height="18" /> | **Discovery & Strategy** | ![Strategy](https://img.shields.io/badge/Product_Strategy-000000?style=for-the-badge) ![Audits](https://img.shields.io/badge/UX_%26_UI_Audits-000000?style=for-the-badge) ![Prototypes](https://img.shields.io/badge/Clickable_Prototypes-000000?style=for-the-badge) |
-| <img src="https://cdn.simpleicons.org/simpleicons/000000" width="18" height="18" /> | **Product Design** | ![Figma](https://img.shields.io/badge/Figma-000000?style=for-the-badge&logo=figma&logoColor=white) ![Systems](https://img.shields.io/badge/Design_Systems-000000?style=for-the-badge) ![Framer](https://img.shields.io/badge/Framer-000000?style=for-the-badge&logo=framer&logoColor=white) |
-| <img src="https://cdn.simpleicons.org/scrimba/000000" width="18" height="18" /> | **Frontend Web** | ![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-000000?style=for-the-badge&logo=vuedotjs&logoColor=white) |
-| <img src="https://cdn.simpleicons.org/apple/000000" width="18" height="18" /> | **Mobile Development** | ![React Native](https://img.shields.io/badge/React_Native-000000?style=for-the-badge&logo=react&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-000000?style=for-the-badge&logo=flutter&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-000000?style=for-the-badge&logo=swift&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-000000?style=for-the-badge&logo=kotlin&logoColor=white) |
-| <img src="https://cdn.simpleicons.org/gnubash/000000" width="18" height="18" /> | **Backend & Runtime** | ![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-000000?style=for-the-badge&logo=nestjs&logoColor=white) ![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-000000?style=for-the-badge&logo=django&logoColor=white) |
-| <img src="https://cdn.simpleicons.org/supabase/000000" width="18" height="18" /> | **Databases & ORM** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-000000?style=for-the-badge&logo=prisma&logoColor=white) ![TypeORM](https://img.shields.io/badge/TypeORM-000000?style=for-the-badge) |
-| <img src="https://cdn.simpleicons.org/quicklook/000000" width="18" height="18" /> | **Ecosystem & Payments** | ![Integrations](https://img.shields.io/badge/Third--party_Integrations-000000?style=for-the-badge) ![Stripe](https://img.shields.io/badge/Stripe-000000?style=for-the-badge&logo=stripe&logoColor=white) ![Custom APIs](https://img.shields.io/badge/Custom_APIs-000000?style=for-the-badge) |
-| <img src="https://cdn.simpleicons.org/octopusdeploy/000000" width="18" height="18" /> | **DevOps & CI/CD** | ![Docker](https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white) ![Actions](https://img.shields.io/badge/GitHub_Actions-000000?style=for-the-badge&logo=githubactions&logoColor=white) ![GitLab CI](https://img.shields.io/badge/GitLab_CI-000000?style=for-the-badge&logo=gitlab&logoColor=white) |
+<br/>
+<br/>
 
-
-### Our Team Activity
-
-<p align="left">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="AlexFrontEnd Activity Graph" width="100%" />
-</p>
+<div align="center">
+  <sub><font color="#8b949e">ORGANIZATION ACTIVITY</font></sub>
+  <br/>
+  <br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-view.svg">
+    <img alt="Organization Activity Graph" src="./profile-3d-contrib/profile-night-view.svg" width="100%">
+  </picture>
+</div>
