@@ -21,5 +21,5 @@ We are a **full-cycle development agency** dedicated to building, scaling, and o
 ### Our Team Activity
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.com/api/pin/?username=AlexFrontEndOrg&theme=dark&bg_color=000000&hide_border=true" alt="AlexFrontEnd Activity" />
+  <img src="https://github-readme-org-stats.next-or.tech/api?org=AlexFrontEndOrg&theme=dark&bg_color=000000&title_color=ffffff&text_color=ffffff&icon_color=ffffff&hide_border=true" alt="AlexFrontEnd Activity" />
 </p>
