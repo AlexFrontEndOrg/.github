@@ -5,6 +5,10 @@ We handle the entire lifecycle—from deep product discovery, UX/UI audits, and 
 
 <br/>
 
+[![Website](https://img.shields.io/badge/Visit_Our_Website-222222?style=for-the-badge&logo=googlechrome&logoColor=8b949e)](https://alexfrontend.com)
+
+<br/>
+
 <pre style="font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace; padding: 16px; margin: 0; line-height: 2.3; color: transparent;">
 <span style="line-height: 1;"><sub style="color: #8b949e; font-size: 10px; font-weight: 500; letter-spacing: 1px;">STAGE / CATEGORY                             STACK & EXPERTISE</sub></span>
 <font color="#21262d">─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</font>
