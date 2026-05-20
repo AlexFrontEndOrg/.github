@@ -27,7 +27,7 @@ We handle the entire lifecycle—from deep product discovery, UX/UI audits, and 
 <br/>
 
 <details>
-  <summary><b>Activity</b></summary>
+  <summary><b>Analytics</b></summary>
   <br/>
   <div align="center">
     <img alt="Organization Activity Graph" src="https://github.com/AlexFrontEndOrg/.github/raw/main/profile-3d-contrib/profile-night-view.svg" width="100%">
